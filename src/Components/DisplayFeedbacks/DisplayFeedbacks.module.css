@@ -1,0 +1,21 @@
+.comments {
+	margin-top: 12.5vh;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, clamp(380px, 40vw, 500px));
+	justify-content: center;
+	gap: 2em;
+	width: 100vw;
+	padding: 0;
+}
+
+.comments > a {
+	padding: 1em;
+}
+
+.comments_back {
+	margin: 2em auto;
+	display: block;
+	font-size: 1.25em;
+	background-color: transparent;
+	border: none;
+}
