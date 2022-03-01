@@ -11,7 +11,7 @@ const DisplayFeedbacks = props => {
 
 	const feedbacks = props.data.map(elt => {
 		if (props.single) {
-			if (parseInt(id) == elt.id) {
+			if (parseInt(id) === elt.id) {
 				return (
 					<Feedback
 						data={elt}
